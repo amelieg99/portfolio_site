@@ -36,6 +36,13 @@ h1, h2, h3 {
     color: var(--burgundy-dark);
 }
 
+img {
+    border: 4px solid var(--light-pink);
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
 footer {
     background-color: var(--burgundy-dark);
     color: white;
