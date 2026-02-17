@@ -67,3 +67,8 @@ footer {
     color: white;
     font-size: 0.9rem;
 }
+
+.table {
+    background-color: var(--burgundy);
+        color: var(--burgundy-dark);
+}
