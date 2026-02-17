@@ -4,18 +4,20 @@
     --text-dark: #222;
     --light-bg: #da9f93; 
     --light-pink: #ebd4cb;
+    --darker-pink: #ce8480;
 }
 
 header {
     background-color: var(--burgundy-dark);
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 main {
     padding-top: 40px;
 }
 
-section {
+.content-box {
     background-color: var(--light-bg);
     padding: 20px;
     margin-bottom: 40px;
@@ -23,17 +25,22 @@ section {
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
+.intro-section {
+    background-color: var(--darker-pink)
+}
+
 
 body {
     background-color: var(--light-pink);
     color: var(--text-dark);
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
 }
 
 h1 {
     margin-bottom: 20px;
     color: var(--burgundy-dark);
+    font-weight: 530;
 }
 
 h2, h3 {
@@ -44,6 +51,14 @@ img {
     border: 6px solid var(--light-pink);
     max-width: 100%;
     height: auto;
+}
+
+a {
+    color: var(--burgundy);
+}
+
+a:hover {
+    color: var(--burgundy-dark);
 }
 
 
@@ -68,7 +83,28 @@ footer {
     font-size: 0.9rem;
 }
 
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 .table {
     background-color: var(--burgundy);
-        color: var(--burgundy-dark);
+    color: var(--light-pink);
+    border: 4px solid var(--light-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table th,
+.table td {
+    background-color: var(--burgundy);
+    color: var(--light-pink);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: var(--burgundy-dark) !important;
+    color: var(--light-pink);
 }
