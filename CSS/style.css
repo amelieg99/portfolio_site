@@ -38,7 +38,6 @@ main {
     background-color: var(--darker-pink)
 }
 
-
 body {
     background-color: var(--light-pink);
     color: var(--text-dark);
@@ -95,8 +94,6 @@ img {
     }
 }
 
-
-
 a {
     color: var(--burgundy);
 }
@@ -104,7 +101,6 @@ a {
 a:hover {
     color: var(--burgundy-dark);
 }
-
 
 .card {
     border: 2px solid var(--burgundy);
