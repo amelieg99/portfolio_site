@@ -10,16 +10,17 @@
 header {
     background-color: var(--burgundy-dark);
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background-color: var(--burgundy-dark);
 }
 
 .navbar-toggler {
     border-color: white;
 }
 
-.navbar-toggler-icon {
-    filter: invert(1);
-}
 
 main {
     padding-top: 40px;
@@ -69,9 +70,16 @@ img {
 }
 
 .me-cartoon {
+    border-radius: 50%;
     width: 200px; 
     height: 200px; 
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .me-cartoon {
+        margin-top: 20px;
+    }
 }
 
 .arrow {
@@ -80,6 +88,14 @@ img {
     object-fit: cover;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    .arrow {
+        margin-top: 20px;
+    }
+}
+
+
 
 a {
     color: var(--burgundy);
